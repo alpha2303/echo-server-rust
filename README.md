@@ -3,6 +3,12 @@ Echo Server implementation in Rust
 
 Inspired by [Coding Challenge #101](https://codingchallenges.substack.com/p/coding-challenge-101-echo-server) by John Crickett
 
+# Knowledge Points
+- TCP vs UDP: Tradeoffs and implementation differences
+- RFC 862: Echo Protocol
+- Multithreading and Pooling in Rust via `std::thread`
+- Inter-thread communication via Multi-producer, single-consumer (MPSC) channels in Rust via `std::sync::mpsc`
+
 ## Setup
 1. Clone the repository: `git clone https://github.com/yourusername/echo-server-rust.git`
 2. Navigate to the project directory: `cd echo-server-rust`
